@@ -6,7 +6,7 @@
     <title>Projeto 01 - Card de Games</title>
     <style>
         body{
-            background-color: #f5f5f5;
+            background-color: #CCCCCC;
             font-family: 'Roboto', sans-serif;
             color: #FFFFFF;
         }
@@ -15,45 +15,48 @@
             background-image: linear-gradient(#2D1031, #641F70);
 
             margin: auto;
-            width: 100%;
+            width: 70%;
             border-radius: 5px;
             overflow: hidden;
             box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
-            width: 900px;
+            
         }
         .header{
-            padding: 40px;
+            padding: 1.2rem ;
             color: #E0B023;
             font-weight: 700;
-            font-size: xx-large;
+            font-size: 2rem;
             text-align: center;
         }
         .Text{
-            padding: 10px;
+            padding: 0.5rem;
             text-align: center;
-            margin-left: 10px;
+            margin-left: 0.6rem;
+            font-size: 1rem;
 
         }
         .subtitle{
-            padding: 20px;
+            padding: 1.2rem ;
             text-align: center;
-            margin-left: 10px;
-            font-size: x-large;
+            margin-left: 0.6rem;
+            font-size: 1.5rem;
             font-weight: 400;
         }
         input{
+            font-size: 1rem;
             margin-left: 10%;
             width: 80%;
-            padding: 10px;
+            padding: 0.6rem;
             border: none;
             border-radius: 5px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            margin-top: 0.3rem;
+            margin-bottom: 0.6rem;
         }
         .form{
             margin-left: 3%;
             width: 95%;
-            margin-top: 30px;
+            margin-top: 1.2rem;
+            margin-bottom: 0.6rem;
             border-radius: 5px;
             overflow: hidden;
             background-image: linear-gradient(#641F70, #2D1031);
@@ -65,8 +68,10 @@
         .card{
            background-image: linear-gradient(#395ded, #72a3f9);
 
-           margin-top: 25px;
-            padding: 20px;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            margin: 0.6rem;
+            padding: 1.2rem;
             border-radius: 5px;
             overflow: hidden;
             border-style: solid;
@@ -75,20 +80,26 @@
 
         }
         .btn-votar{
-            margin-top: 10px;
-            margin-left: 10px;
-            padding: 10px;
+            margin-top: 0.6rem;
+            margin-left: 0.6rem;
+            padding: 0.6rem;
             border: none;
             border-radius: 5px;
             background-color: #1D0C20;
             color: #FFFFFF;
             font-weight: 200;
-            font-size: large;
+            font-size: 1.12rem;
             width: 80%;
+            cursor: pointer;
         }
         .flex-container{
             display: flex;
             justify-content: space-around;
+        }
+        .text-card{
+            font-size: 1.3rem;
+            font-weight: lighter;
+            text-align: center;
         }
     </style>
 </head>
@@ -110,21 +121,21 @@
             <input type="email" placeholder="Digite seu email">
             <div class="flex-container">
                 <div class="card">
-                    Esportes
+                    <div class="text-card">Esportes</div>
                     <div>
                         <img src="assets/sports_soccer_white.svg" alt="Esportes">
                     </div>
                     <button class="btn-votar">Votar</button>
                 </div>
                 <div class="card">
-                    Simulação
+                    <div class="text-card">Simulação</div>
                     <div>
                         <img src="assets/local_airport_white.svg" alt="Simulação">
                     </div>
                     <button class="btn-votar">Votar</button>
                 </div>
                 <div class="card">
-                    Estratégia
+                    <div class="text-card">Estratégia</div>
                     
                     <div>
                         <img src="assets/psychology_white.svg" alt="Estratégia">
