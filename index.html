@@ -5,20 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 01 - Card de Games</title>
     <style>
+        body{
+            background-color: #f5f5f5;
+            font-family: 'Roboto', sans-serif;
+            color: #FFFFFF;
+        }
         .Container{
-            background-color:#2D1031;
             
+            background-image: linear-gradient(#2D1031, #641F70);
+
             margin: auto;
             width: 100%;
-            border-radius: 10px;
+            border-radius: 5px;
             overflow: hidden;
+            box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+            width: 900px;
         }
         .header{
-            padding: 20px;
+            padding: 40px;
+            color: #E0B023;
+            font-weight: 700;
+            font-size: xx-large;
+            text-align: center;
+        }
+        .subtitle{
+            padding: 10px;
+            text-align: center;
+            margin-left: 10px;
+
         }
         .form{
-            background-color: #5D1D68;
+            margin-top: 30px;
+            border-radius: 5px;
+            overflow: hidden;
+            background-image: linear-gradient(#641F70, #2D1031);
            
+        }
+        span{
+            font-weight: 600;
         }
         .card{
             background-color: #62AAFA;
@@ -26,15 +50,22 @@
         }
         .flex-container{
             display: flex;
-           
             justify-content: space-around;
-          
         }
     </style>
 </head>
 <body>
     <div class="Container">
-        <div class="header"> Game lovers </div>
+        <div class="header"> GAME LOVERS ENQUETE</div>
+            <div class="subtitle">
+                Estamos escolhendo nessa enquete os melhores estilos de jogos entre os afixionados por vídeo games. Participe da nossa enquete e escolha entre os três finalistas!
+            </div>
+            <div class="subtitle">
+                A sua escolha é muito importante para nós.
+            </div>
+            <div class="subtitle">
+                No final da enquete iremos sortear uma <span>brinde</span> entre os participantes.
+            </div>
         <div class="form">
             form
             <div class="flex-container">
