@@ -51,8 +51,8 @@
             margin-bottom: 10px;
         }
         .form{
-            margin-left: 15%;
-            width: max-content;
+            margin-left: 3%;
+            width: 95%;
             margin-top: 30px;
             border-radius: 5px;
             overflow: hidden;
@@ -63,8 +63,28 @@
             font-weight: 600;
         }
         .card{
-            background-color: #62AAFA;
+           background-image: linear-gradient(#395ded, #72a3f9);
+
+           margin-top: 25px;
             padding: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+            border-style: solid;
+            border-width: 10px;
+            border-color: #2638DB;
+
+        }
+        .btn-votar{
+            margin-top: 10px;
+            margin-left: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1D0C20;
+            color: #FFFFFF;
+            font-weight: 200;
+            font-size: large;
+            width: 80%;
         }
         .flex-container{
             display: flex;
@@ -90,13 +110,26 @@
             <input type="email" placeholder="Digite seu email">
             <div class="flex-container">
                 <div class="card">
-                    Card 1
+                    Esportes
+                    <div>
+                        <img src="assets/sports_soccer_white.svg" alt="Esportes">
+                    </div>
+                    <button class="btn-votar">Votar</button>
                 </div>
                 <div class="card">
-                    Card 2
+                    Simulação
+                    <div>
+                        <img src="assets/local_airport_white.svg" alt="Simulação">
+                    </div>
+                    <button class="btn-votar">Votar</button>
                 </div>
                 <div class="card">
-                    Card 3
+                    Estratégia
+                    
+                    <div>
+                        <img src="assets/psychology_white.svg" alt="Estratégia">
+                    </div>
+                    <button class="btn-votar">Votar</button>
                 </div>
             </div>
         </div>
