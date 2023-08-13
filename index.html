@@ -28,13 +28,31 @@
             font-size: xx-large;
             text-align: center;
         }
-        .subtitle{
+        .Text{
             padding: 10px;
             text-align: center;
             margin-left: 10px;
 
         }
+        .subtitle{
+            padding: 20px;
+            text-align: center;
+            margin-left: 10px;
+            font-size: x-large;
+            font-weight: 400;
+        }
+        input{
+            margin-left: 10%;
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
         .form{
+            margin-left: 15%;
+            width: max-content;
             margin-top: 30px;
             border-radius: 5px;
             overflow: hidden;
@@ -57,17 +75,19 @@
 <body>
     <div class="Container">
         <div class="header"> GAME LOVERS ENQUETE</div>
-            <div class="subtitle">
+            <div class="Text">
                 Estamos escolhendo nessa enquete os melhores estilos de jogos entre os afixionados por vídeo games. Participe da nossa enquete e escolha entre os três finalistas!
             </div>
-            <div class="subtitle">
+            <div class="Text">
                 A sua escolha é muito importante para nós.
             </div>
-            <div class="subtitle">
+            <div class="Text">
                 No final da enquete iremos sortear uma <span>brinde</span> entre os participantes.
             </div>
         <div class="form">
-            form
+            <div class="subtitle">Digite os seus dados e escolha entre os três finalistas!</div>
+            <input type="text" placeholder="Digite seu nome">
+            <input type="email" placeholder="Digite seu email">
             <div class="flex-container">
                 <div class="card">
                     Card 1
